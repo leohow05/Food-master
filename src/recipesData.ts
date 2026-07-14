@@ -2,6 +2,7 @@ import { Recipe } from "./types";
 import singaporeKatongLaksaImg from "./assets/images/singapore_katong_laksa_1784007452090.jpg";
 import hainaneseChickenRiceImg from "./assets/images/hainanese_chicken_rice_1784007463861.jpg";
 import singaporeChiliCrabImg from "./assets/images/singapore_chili_crab_1784007476123.jpg";
+import kantoSukiyakiImg from "./assets/images/kanto_style_sukiyaki_raw_1784008069755.jpg";
 
 export const USER_AVATAR = "https://lh3.googleusercontent.com/aida-public/AB6AXuDz5QH6bb6Vr92YEMgomglVue35k8xcOGtP041fJnx95DGUuuSmGxzK-GK8DJv9xRSPXdFSD-Bt-VmE_fqVj6yB_OREih5qQG5g0xiGez1a4d0romCFPYJIQdlhAayBeOtBdZmkgWAzGe4gxnusC7y8T-sDhcV8YghaCXuMGZVyY0pbcjtbZOV6cW5QIpoOsfPQI8_NDmqjb0xRSextsJl6NsBWiZATkEjE3puNG06HCXzmS7upkNYpOQ";
 
@@ -477,7 +478,7 @@ export const INITIAL_RECIPES: Recipe[] = [
   {
     id: "kanto-sukiyaki",
     title: "Kanto-style Sukiyaki",
-    imageUrl: "https://images.unsplash.com/photo-1582450871972-ab5ca641643d?w=600&auto=format&fit=crop&q=80",
+    imageUrl: kantoSukiyakiImg,
     cuisine: "Japanese",
     region: "Kanto (Tokyo)",
     dietaryTags: ["Japanese"],
