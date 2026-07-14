@@ -1,0 +1,6 @@
+{
+  "name": "What Should I Eat?",
+  "description": "A food discovery app that helps you decide what to eat based on cravings, ingredients in your fridge, dietary restrictions, taste preferences, or a interactive meal spinner.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
